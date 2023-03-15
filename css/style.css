@@ -1,0 +1,109 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home,.break{
+    background-color: #CCEAEA;
+}
+
+.f{
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+}
+.nav-item{
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
+.login{
+    width: 5rem;
+}
+.login:hover{
+    border: 3px solid gray;
+    background-color: #FC5185;
+    color: white;
+    transition: 0.5s;
+}
+.signup{
+    background-color: #FC5185;
+    color: white;
+    width: 5.5rem;
+}
+.signup:hover{
+    width: 5.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hov:hover{
+    width: 9rem;
+    border-bottom: solid 5px #FC5185;
+    transition: border-width 0.4s linear;
+    
+}
+.rounded-pill{
+    background-color: #FC5185;
+    color: white;
+}
+.rounded-pill:hover{
+    background-color: #FC5185;
+    color: black;
+}
+/* font size responsive */
+.meeth{
+    font-size: 4vw;
+}
+.meetp{
+    font-size: 2vw;
+}
+
+.howtext,.next-week{
+    color: #FC5185;
+}
+.carousel-control-prev{
+    width: 50px;
+    height: 50px;
+    margin-top: 15%;
+    background-color: #FC5185;
+  
+
+}
+.carousel-control-next{
+    width: 50px;
+    height: 50px;
+    margin-top: 15%;
+    background-color: #FC5185;
+    
+}
+.menu-button,.break-button{
+    text-align: center;
+   
+}
+.button-see{
+    background-color: #FC5185;
+    
+}
+.button-see:hover{
+    background-color: #FC5185;
+    color: white;
+}
+
+span{
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .meet-text{
+       text-align: center;
+       
+    }
+    .meeth{
+        margin-top: 3rem;
+    }
+
+  
+}
+@media only screen and (max-device-width: 480px) {
+    .meeth{
+        margin-top: 8rem;
+    }
+}

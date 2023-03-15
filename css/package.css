@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f{
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+}
+.nav-item{
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
+.login{
+    width: 5rem;
+}
+.login:hover{
+   
+    background-color: #FC5185;
+    color: white;
+    transition: 0.5s;
+}
+.signup{
+    background-color: #FC5185;
+    color: white;
+    width: 5.5rem;
+}
+.signup:hover{
+    width: 5.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hov:hover{
+    width: 9rem;
+    border-bottom: solid 5px #FC5185;
+    transition: border-width 0.6s linear;
+    
+}
+.package{
+    width: 7rem;
+    border-bottom: solid 5px #FC5185;
+    transition: border-width 0.6s linear;
+    
+}
+.select,.recipes{
+    color: #FC5185;
+}
+.select-container{
+    height: auto;
+    margin-top: 5rem;
+}
+.button-see{
+    background-color: #FC5185;
+    align-items: center;
+}
+.button-see:hover,.buy-btn:hover,.contact-btn:hover{
+    background-color: #FC5185;
+    color: white;
+}
+.review-button{
+    text-align: center;
+}
+.buy-btn,.contact-btn{
+    background-color: #FC5185;
+}
+.home-icon:hover{
+    width: 1.8rem;
+    border-bottom: solid 5px #FC5185;
+    transition: border-width 0.4s linear;
+}
+ul>li{
+    list-style: none;
+}
+.menu-button{
+    text-align: center;
+}
+
+@media screen and (min-width:1366px) {
+    .package-card{
+        width: 30rem;
+    }
+    
+}
